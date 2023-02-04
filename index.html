@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <title>Local Storage</title>
+  </head>
+  <body>
+    <div class="without-local-storage">
+      <div class="container">
+        <h2>Without local storage</h2>
+        <input
+          type="text"
+          class="input-area-without-local-storage"
+          placeholder="Type Something..."
+        />
+        <p class="input-text-value-without-local-storage"></p>
+      </div>
+    </div>
+    <div class="with-local-storage">
+      <div class="container">
+        <h2>With local storage</h2>
+        <input
+          type="text"
+          class="input-area-with-local-storage"
+          placeholder="Type Something..."
+        />
+        <p class="input-text-value-with-local-storage"></p>
+        <div class="button-wrapper">
+          <button type="button" class="remove-local-storage">
+            Click On Me To Clear Local Storage
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

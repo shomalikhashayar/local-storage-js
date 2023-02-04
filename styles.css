@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Without Local Storage */
+
+.without-local-storage {
+  width: 900px;
+  height: 275px;
+  background-color: #ffc888;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+/* With Local Storage */
+
+.with-local-storage {
+  width: 900px;
+  height: 275px;
+  background-color: rgb(92, 179, 255);
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+.input-area-without-local-storage {
+  width: 700px;
+  height: 40px;
+  border-radius: 9px;
+  line-height: 28px;
+  outline: none;
+  font-size: 18px;
+  padding-left: 12px;
+  color: #ffab4a;
+  border: none;
+}
+
+.input-area-without-local-storage::placeholder {
+  color: #ffab4a;
+  font-family: "Rubik", sans-serif;
+}
+
+.input-area-without-local-storage:hover {
+  outline: none;
+  border-color: #ffb056;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px #ffa742;
+}
+
+.input-area-without-local-storage:focus {
+  outline: none;
+  border-color: #ffb056;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px #ffa742;
+}
+
+.input-area-with-local-storage {
+  width: 700px;
+  height: 40px;
+  border-radius: 9px;
+  line-height: 28px;
+  outline: none;
+  font-size: 18px;
+  padding-left: 12px;
+  color: #2a5fff;
+  border: none;
+}
+
+.input-area-with-local-storage::placeholder {
+  color: #3e6eff;
+  font-family: "Rubik", sans-serif;
+}
+
+.input-area-with-local-storage:hover {
+  outline: none;
+  border-color: #2e63ff;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px #2e63ff;
+}
+
+.input-area-with-local-storage:focus {
+  outline: none;
+  border-color: #2e63ff;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px #2e63ff;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 20px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button[type="button"] {
+  background-color: #3287ff;
+  color: white;
+  font-size: 20px;
+  padding: 15px 10px;
+  width: 100%;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #006aff;
+}
+
+.button-wrapper {
+  margin-top: -20px;
+}
